@@ -68,8 +68,20 @@
         <header id="section-header">
           <h1>Why C#?</h1>
           <p>There are many reasons why we chose C# for our book. It is a modern programming language, widely spread, used by millions of programmers around the entire world. At the same time C# is a very simple and easy to learn (unlike C and C++). It is natural to start with a language that is suitable for beginners while still widely used in the industry by many large companies, making it one of the most popular programming languages nowadays.</p>
-          
-          <code></code>
+          <div id="code_section">
+            <code>// An ordinary character<br></code>
+            <code>char character = 'a';<br></code>
+          <code>Console.WriteLine(character);<br></code>
+          <code>// Unicode character code in hexadecimal format <br></code>
+          <code>character = '\u003A';<br></code>
+          <code>Console.WriteLine(character);<br></code>
+          <code>// Assigning the single quotiation character (escaped as \')
+            character = '\'';
+            Console.WriteLine(character);
+            // Assigning the backslash character (escaped as \\)<br>
+            character = '\\';<br>
+            Console.WriteLine(character);<br></code>
+          </div>
         </header>
       </section>
       <section class="main-section" id="c_or_java">
