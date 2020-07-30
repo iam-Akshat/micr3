@@ -57,10 +57,21 @@ nav#navbar header{
 
 @media only screen and (max-width:500px){
     nav#navbar{
-        width: 20%;
-        height: 100vh;
-        position: fixed;
-        background-color: azure;
-        padding: 3rem;
+        width: 100%;
+        height: fit-content; 
+        background-color: rgb(171, 216, 216);
+        position: relative;
+        padding: 1rem 2rem;
+    }
+    nav#navbar .nav-link{
+        margin-bottom: 0.9rem;
+    }
+    #main-doc{
+        width: 80%;
+        margin: 0 auto;
+        padding:1.1rem 0.8rem;
+    }
+    #code_section{
+        padding: 0.7rem 1rem;
     }
   }
