@@ -41,5 +41,16 @@ nav#navbar header{
     margin-top: 1rem;
     margin-bottom:1.5rem ;
 }
+#the_microsoft ul{
+    padding: 1rem 2rem;
+}
 
-    
+#the_microsoft ul li{
+    margin: 1rem;
+}
+
+#code_section{
+    background-color: coral;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+}
